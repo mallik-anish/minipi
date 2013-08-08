@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE7564F117B4062600E7FD0C /* cut.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7564EF17B4062600E7FD0C /* cut.png */; };
+		CE7564F217B4062600E7FD0C /* write.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7564F017B4062600E7FD0C /* write.png */; };
+		CE803F0017B170EA00B230E8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE803EFF17B170EA00B230E8 /* QuartzCore.framework */; };
 		CE8DC21517AEA93900D10036 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8DC21417AEA93900D10036 /* UIKit.framework */; };
 		CE8DC21717AEA93900D10036 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8DC21617AEA93900D10036 /* Foundation.framework */; };
 		CE8DC21917AEA93900D10036 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8DC21817AEA93900D10036 /* CoreGraphics.framework */; };
@@ -18,9 +21,14 @@
 		CE8DC22B17AEA93900D10036 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8DC22A17AEA93900D10036 /* Default-568h@2x.png */; };
 		CE8DC22E17AEA93900D10036 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8DC22D17AEA93900D10036 /* ViewController.m */; };
 		CE8DC23117AEA93900D10036 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8DC22F17AEA93900D10036 /* ViewController.xib */; };
+		CE8DC23917AEB5A400D10036 /* CutMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8DC23817AEB5A400D10036 /* CutMethod.m */; };
+		CE8DC23C17AEBEA400D10036 /* getCropImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8DC23B17AEBEA300D10036 /* getCropImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE7564EF17B4062600E7FD0C /* cut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cut.png; sourceTree = "<group>"; };
+		CE7564F017B4062600E7FD0C /* write.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = write.png; sourceTree = "<group>"; };
+		CE803EFF17B170EA00B230E8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CE8DC21117AEA93900D10036 /* CutImageFreeHand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CutImageFreeHand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8DC21417AEA93900D10036 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE8DC21617AEA93900D10036 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +45,10 @@
 		CE8DC22C17AEA93900D10036 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CE8DC22D17AEA93900D10036 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CE8DC23017AEA93900D10036 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CE8DC23717AEB5A400D10036 /* CutMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutMethod.h; sourceTree = "<group>"; };
+		CE8DC23817AEB5A400D10036 /* CutMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutMethod.m; sourceTree = "<group>"; };
+		CE8DC23A17AEBEA300D10036 /* getCropImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getCropImage.h; sourceTree = "<group>"; };
+		CE8DC23B17AEBEA300D10036 /* getCropImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = getCropImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE803F0017B170EA00B230E8 /* QuartzCore.framework in Frameworks */,
 				CE8DC21517AEA93900D10036 /* UIKit.framework in Frameworks */,
 				CE8DC21717AEA93900D10036 /* Foundation.framework in Frameworks */,
 				CE8DC21917AEA93900D10036 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +69,7 @@
 		CE8DC20817AEA93800D10036 = {
 			isa = PBXGroup;
 			children = (
+				CE803EFF17B170EA00B230E8 /* QuartzCore.framework */,
 				CE8DC21A17AEA93900D10036 /* CutImageFreeHand */,
 				CE8DC21317AEA93900D10036 /* Frameworks */,
 				CE8DC21217AEA93900D10036 /* Products */,
@@ -83,12 +97,18 @@
 		CE8DC21A17AEA93900D10036 /* CutImageFreeHand */ = {
 			isa = PBXGroup;
 			children = (
+				CE7564EF17B4062600E7FD0C /* cut.png */,
+				CE7564F017B4062600E7FD0C /* write.png */,
 				CE8DC22317AEA93900D10036 /* AppDelegate.h */,
 				CE8DC22417AEA93900D10036 /* AppDelegate.m */,
 				CE8DC22C17AEA93900D10036 /* ViewController.h */,
 				CE8DC22D17AEA93900D10036 /* ViewController.m */,
 				CE8DC22F17AEA93900D10036 /* ViewController.xib */,
 				CE8DC21B17AEA93900D10036 /* Supporting Files */,
+				CE8DC23717AEB5A400D10036 /* CutMethod.h */,
+				CE8DC23817AEB5A400D10036 /* CutMethod.m */,
+				CE8DC23A17AEBEA300D10036 /* getCropImage.h */,
+				CE8DC23B17AEBEA300D10036 /* getCropImage.m */,
 			);
 			path = CutImageFreeHand;
 			sourceTree = "<group>";
@@ -163,6 +183,8 @@
 				CE8DC22917AEA93900D10036 /* Default@2x.png in Resources */,
 				CE8DC22B17AEA93900D10036 /* Default-568h@2x.png in Resources */,
 				CE8DC23117AEA93900D10036 /* ViewController.xib in Resources */,
+				CE7564F117B4062600E7FD0C /* cut.png in Resources */,
+				CE7564F217B4062600E7FD0C /* write.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +198,8 @@
 				CE8DC22117AEA93900D10036 /* main.m in Sources */,
 				CE8DC22517AEA93900D10036 /* AppDelegate.m in Sources */,
 				CE8DC22E17AEA93900D10036 /* ViewController.m in Sources */,
+				CE8DC23917AEB5A400D10036 /* CutMethod.m in Sources */,
+				CE8DC23C17AEBEA400D10036 /* getCropImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +320,7 @@
 				CE8DC23617AEA93900D10036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
