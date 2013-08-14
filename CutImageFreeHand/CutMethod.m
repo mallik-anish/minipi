@@ -2,8 +2,8 @@
 //  CutMethod.m
 //  CutImageFreeHand
 //
-//  Created by Lion User on 04/08/2013.
-//  Copyright (c) 2013 Lion User. All rights reserved.
+//  Created by Anish Mallik on 04/08/2013.
+//  Copyright (c) 2013 Anish Mallik. All rights reserved.
 //
 
 #import "CutMethod.h"
@@ -18,11 +18,11 @@
 
 
 }
--(NSArray *)getCropImage:(UIImageView *)mainImage  aryPoints:(NSMutableArray *)cutAryPoints
+-(NSArray *)getCropImage:(UIImageView *)mainImage  aryPoints:(NSMutableArray *)cutAryPoints borderImg:(UIImageView *)borderImg
 {
     cpImage=[[getCropImage alloc] init];
    // NSLog(@"%d",[cpImage getCropImage:mainImage aryPoint:cutAryPoints].count);
-    return [cpImage getCropImage:mainImage aryPoint:cutAryPoints];
+    return [cpImage getCropImage:mainImage aryPoint:cutAryPoints borderImg:borderImg];
 }
 -(UIImage *)setCutBackgroundImage:(UIImageView *)mainImage aryPoints:(NSMutableArray *)selectAryPoints{
     

@@ -2,8 +2,8 @@
 //  ViewController.h
 //  CutImageFreeHand
 //
-//  Created by Lion User on 04/08/2013.
-//  Copyright (c) 2013 Lion User. All rights reserved.
+//  Created by Anish Mallik on 04/08/2013.
+//  Copyright (c) 2013 Anish Mallik. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -27,4 +27,6 @@
 - (IBAction)handlePanImage:(UIPanGestureRecognizer *)sender;
 - (IBAction)handleScaleImage:(UIPinchGestureRecognizer *)sender;
 -(void)handleDoubleTap:(UITapGestureRecognizer *)sender;
+@property(retain,nonatomic)NSArray *aryCropImg;
+//-(void)handleDoubleTap1:(UITapGestureRecognizer *)sender;
 @end

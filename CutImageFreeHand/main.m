@@ -2,8 +2,8 @@
 //  main.m
 //  CutImageFreeHand
 //
-//  Created by Lion User on 04/08/2013.
-//  Copyright (c) 2013 Lion User. All rights reserved.
+//  Created by Anish Mallik on 04/08/2013.
+//  Copyright (c) 2013 Anish Mallik. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
